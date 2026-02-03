@@ -9,12 +9,12 @@ This project demonstrates a professional Deep Learning workflow, moving from a m
 
 ## 📊 Results
 
-The **TinyVGG** architecture achieved **>85% accuracy** on the test set after 10 epochs, significantly outperforming baseline linear models.
+The **TinyVGG** architecture achieved **>90% accuracy** on the test set after 10 epochs, significantly outperforming baseline linear models.
 
 | Metric | Value |
 | :--- | :--- |
-| **Test Accuracy** | **88.4%** (Example) |
-| **Test Loss** | 0.32 |
+| **Test Accuracy** | **90.45%**|
+| **Test Loss** | 0.267 |
 | **Training Time** | ~2 mins (on CUDA) |
 
 ### Training Performance
