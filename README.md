@@ -72,5 +72,4 @@ pip install -r requirements.txt
 * Experiment with Batch Normalization layers to speed up convergence.
 * Deploy the model using FastAPI or Streamlit for a web-based demo.
 
-## 🤝 Contributing
-Feel free to fork this project and submit a Pull Request if you have suggestions for optimizing the architecture!
+## 🏆Developed by Blagoja Budzakoski
