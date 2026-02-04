@@ -7,24 +7,6 @@ A modular, production-oriented Convolutional Neural Network (CNN) implementation
 
 This project demonstrates a professional Deep Learning workflow, moving from a monolithic notebook to a structured, maintainable codebase with separate modules for training, evaluation, and utilities.
 
-## 📊 Results
-
-The **TinyVGG** architecture achieved **>90% accuracy** on the test set after 10 epochs, significantly outperforming baseline linear models.
-
-| Metric | Value |
-| :--- | :--- |
-| **Test Accuracy** | **90.45%**|
-| **Test Loss** | 0.267 |
-| **Training Time** | ~2 mins (on CUDA) |
-
-### Training Performance
-![Training Curves](images/training_curves.png)
-*Figure 1: Loss and Accuracy curves showing steady convergence without significant overfitting.*
-
-### Model Evaluation
-![Confusion Matrix](images/confusion_matrix.png)
-*Figure 2: Confusion Matrix highlighting class-specific performance. The model distinguishes distinct items (Trousers, Bags) well but occasionally confuses similar geometric shapes (Coat vs. Pullover).*
-
 ## 🏗️ Project Structure
 
 The project is organized to separate concerns, mimicking a production ML repository:
@@ -49,6 +31,24 @@ The model replicates the TinyVGG architecture, consisting of two convolutional b
 1. Conv Block 1: Conv2d -> ReLU -> Conv2d -> ReLU -> MaxPool2d
 2. Conv Block 2: Conv2d -> ReLU -> Conv2d -> ReLU -> MaxPool2d
 3. Classifier: Flatten -> Linear Output Layer
+
+## 📊 Results
+
+The **TinyVGG** architecture achieved **>90% accuracy** on the test set after 10 epochs, significantly outperforming baseline linear models.
+
+| Metric | Value |
+| :--- | :--- |
+| **Test Accuracy** | **90.45%**|
+| **Test Loss** | 0.267 |
+| **Training Time** | ~2 mins (on CUDA) |
+
+### Training Performance
+![Training Curves](images/training_curves.png)
+*Figure 1: Loss and Accuracy curves showing steady convergence without significant overfitting.*
+
+### Model Evaluation
+![Confusion Matrix](images/confusion_matrix.png)
+*Figure 2: Confusion Matrix highlighting class-specific performance. The model distinguishes distinct items (Trousers, Bags) well but occasionally confuses similar geometric shapes (Coat vs. Pullover).*
 
 ## 🚀 Getting Started
 ### Prerequisites
